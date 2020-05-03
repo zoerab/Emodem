@@ -6,7 +6,7 @@ If you would like to recreate this:
 * Connect user port pin M to the RX pin of the ESP-32
 * Connect user port pin 1 to a GND pin of the ESP-32
 
-Then open the user port serial interface in a terminal program on your Commodore 64. Make sure your terminal program is set to the correct baud rate.
+Then open the user port serial interface in a terminal program on your Commodore 64. Make sure your terminal program is set to the correct baud rate (default 2400).
 
 ## Commands
 Commands are sent to the modem  are of the form `EM$<command><argument>`. Note that there is no space between the `EM$`, the command, or the argument.
