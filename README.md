@@ -8,6 +8,8 @@ If you would like to recreate this:
 
 Then open the user port serial interface in a terminal program on your Commodore 64. Make sure your terminal program is set to the correct baud rate (default 2400).
 
+Also make sure your terminal program is set to ASCII mode.
+
 ## Commands
 Commands are sent to the modem  are of the form `EM$<command><argument>`. Note that there is no space between the `EM$`, the command, or the argument.
 
