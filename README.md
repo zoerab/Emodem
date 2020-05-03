@@ -2,9 +2,9 @@
 Simple serial WiFi "modem" for the ESP-32. This was created in order to provide a simple WiFi interface via the user port of a Commodore 64 so that I could connect to BBSes and other such activities.
 
 If you would like to recreate this:
-* Connect user port pins B+C to the TX pin of the ESP-32
-* Connect user port pin M to the RX pin of the ESP-32
-* Connect user port pin 1 to a GND pin of the ESP-32
+* Connect C64 user port pins B+C to the TX pin of the ESP-32
+* Connect C64 user port pin M to the RX pin of the ESP-32
+* Connect C64 user port pin 1 to a GND pin of the ESP-32
 
 Then open the user port serial interface in a terminal program on your Commodore 64. Make sure your terminal program is set to the correct baud rate (default 2400).
 
